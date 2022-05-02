@@ -1,0 +1,117 @@
+h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 3rem;;
+}
+.tabuleiro{
+    
+    margin:auto;
+    margin-top: 50px;
+    text-align: center;
+}
+.quadrado{
+    background-color: rgb(134, 133, 131); 
+    width: 200px; 
+     height: 200px; 
+     display: inline-block;
+     border: 2px solid black;
+     border-radius: 5px;
+}
+#bt1{
+    width: 100px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    position: absolute;
+    margin-left: 350px;
+    margin:2px solid black;
+}
+#bt1:hover{
+    background-color: white;
+    color:black;
+    margin:2px solid black;
+
+}
+
+.o{
+    position:relative;
+}
+.o:after{
+    content: "\1F9DD";
+    font-size: 100px;
+    line-height: 200px;
+    position:absolute;
+    left: 0;
+    right: 0;
+    top:0;
+    bottom: 0;
+}
+.x{
+    position:relative;
+}
+.x:after{
+    content: "\1F9D9";
+    font-size: 100px;
+    line-height: 200px;
+    position:absolute;
+    left: 0;
+    right: 0;
+    top:0;
+    bottom: 0;
+}
+
+#placares{
+    margin:auto;
+    width: 600px;
+    height: 100px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+#placarP1{
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    text-align: center;
+     border-radius: 10px;
+     display: inline-block;
+     
+   
+}
+#plac2{
+    width: 200px;
+    height: 100px;
+    background-color: green;
+    text-align: center;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: -50p;
+    
+}
+
+.placar{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    
+    text-align: center;
+    margin-left: 75px;
+    margin-top: -20px;
+    border-radius: 5px;
+    font-size: 2rem;
+    color: white;
+}
+
+h2{
+    margin-top: 0;
+}
+
+#p1{
+    color:aliceblue
+}
